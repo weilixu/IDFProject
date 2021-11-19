@@ -1,0 +1,608 @@
+<lights>
+	<dataset version="2010">
+		<category group="Common Space Types">
+			<space>
+				<name>Atrium</name>
+				<lpd>0.03</lpd>
+				<unit>W/ft2</unit>
+				<rcr>NA</rcr>
+			</space>
+			<space>
+				<name>Audience/Seating Area-Permanent, For auditorium</name>
+				<lpd>0.79</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Audience/Seating Area-Permanent, For Performing Arts Theater</name>
+				<lpd>2.43</lpd>
+				<unit>W/ft2</unit>
+				<rcr>8</rcr>
+			</space>
+			<space>
+				<name>Audience/Seating Area-Permanent, For Motion Picture Theater</name>
+				<lpd>1.14</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Classroom/Lecture/Training</name>
+				<lpd>1.24</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Conference/Meeting/Multipurpose</name>
+				<lpd>1.23</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Corridor/Transition</name>
+				<lpd>0.66</lpd>
+				<unit>W/ft2</unit>				
+				<rcr>NA</rcr>
+			</space>
+			<space>
+				<name>Dining Area</name>
+				<lpd>0.65</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Dining Area, For Bar Lounge/Leisure Dining</name>
+				<lpd>1.31</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Dining Area, For Family Dining</name>
+				<lpd>0.89</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Dressing/Fitting Room for Performing Arts Theater</name>
+				<lpd>0.40</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Electrical/Mechanical</name>
+				<lpd>0.95</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Food Preparation</name>
+				<lpd>0.99</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Laboratory, For classrooms</name>
+				<lpd>1.28</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Laboratory, For Medical/Industrial/Research</name>
+				<lpd>1.81</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Lobby</name>
+				<lpd>0.90</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Lobby, For Elevator</name>
+				<lpd>0.64</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Lobby, For Performing Arts Theater</name>
+				<lpd>2.0</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Lobby, For Motion Picture Theater</name>
+				<lpd>0.52</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Locker Room</name>
+				<lpd>0.75</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Lounge/Recreation</name>
+				<lpd>0.73</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Office, Enclosed</name>
+				<lpd>1.11</lpd>
+				<unit>W/ft2</unit>
+				<rcr>8</rcr>
+			</space>
+			<space>
+				<name>Office, Open Plan</name>
+				<lpd>0.98</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Restrooms</name>
+				<lpd>0.98</lpd>
+				<unit>W/ft2</unit>
+				<rcr>8</rcr>
+			</space>
+			<space>
+				<name>Sales Area</name>
+				<lpd>1.68</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Stairways</name>
+				<lpd>0.69</lpd>
+				<unit>W/ft2</unit>
+				<rcr>10</rcr>
+			</space>
+			<space>
+				<name>Storage</name>
+				<lpd>0.63</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Workshop</name>
+				<lpd>1.59</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+		</category>
+		<category group="Automotive">
+			<space>
+				<name>Service/Repair</name>
+				<lpd>0.67</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+		</category>
+		<category group="Bank or Office">
+			<space>
+				<name>Banking Activity Area</name>
+				<lpd>1.38</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+		</category>
+		<category group="Convention Center">
+			<space>
+				<name>Audience Seating</name>
+				<lpd>0.82</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Exhibit Space</name>
+				<lpd>1.45</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+		</category>
+		<category group="Courthouse or Police Station or Penitentiary">
+			<space>
+				<name>Courtroom</name>
+				<lpd>1.72</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>	
+			</space>
+			<space>
+				<name>Confinement Cells</name>
+				<lpd>1.10</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Judge's Chambers</name>
+				<lpd>1.17</lpd>
+				<unit>W/ft2</unit>
+				<rcr>8</rcr>
+			</space>
+			<space>
+				<name>Penitentiary Audience Seating</name>
+				<lpd>0.43</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Penitentiary Classroom</name>
+				<lpd>1.34</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Penitentiary Dining</name>
+				<lpd>1.07</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+		</category>
+		<category group="Dormitory">
+			<space>
+				<name>Living Quarters</name>
+				<lpd>0.32</lpd>
+				<unit>W/ft2</unit>
+				<rcr>8</rcr>
+			</space>
+		</category>
+		<category group="Fire Stations">
+			<space>
+				<name>Engine Room</name>
+				<lpd>0.56</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Sleeping Quarters</name>
+				<lpd>0.25</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+		</category>
+		<category group="Gymnasium/Fitness Center">
+			<space>
+				<name>Fitness Area</name>
+				<lpd>0.72</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Gymnasium Audience Seating</name>
+				<lpd>0.43</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Playing Area</name>
+				<lpd>1.20</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+		</category>
+		<category group="Hospital">
+			<space>
+				<name>Corridor/Transition</name>
+				<lpd>0.89</lpd>
+				<unit>W/ft2</unit>
+				<rcr> 8 ft</rcr>
+			</space>
+			<space>
+				<name>Emergency</name>
+				<lpd>2.26</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Exam/Treatment</name>
+				<lpd>1.66</lpd>
+				<unit>W/ft2</unit>
+				<rcr>8</rcr>
+			</space>
+			<space>
+				<name>Laundry/Washing</name>
+				<lpd>0.60</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Lounge/Recreation</name>
+				<lpd>1.07</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Medical Supply</name>
+				<lpd>1.27</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Nursery</name>
+				<lpd>0.88</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Nurses'Station</name>
+				<lpd>0.87</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Operating Room</name>
+				<lpd>1.89</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Patient Room</name>
+				<lpd>0.62</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Pharmacy</name>
+				<lpd>1.14</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Physical Therapy</name>
+				<lpd>0.91</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Radiology/Imaging</name>
+				<lpd>1.32</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Recovery</name>
+				<lpd>1.15</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+		</category>
+		<category group="Hotel or highway lodging">
+			<space>
+				<name>Hotel Dining</name>
+				<lpd>0.82</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Hotel Guest Room</name>
+				<lpd>1.11</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Hotel Lobby</name>
+				<lpd>1.06</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Highway Lodging Dining</name>
+				<lpd>0.88</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Highway Lodging Guest Rooms</name>
+				<lpd>0.75</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+		</category>
+		<category group="Library">
+			<space>
+				<name>Card File and Cataloging</name>
+				<lpd>0.72</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Reading Area</name>
+				<lpd>0.93</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Stacks</name>
+				<lpd>1.71</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+		</category>
+		<category group="Manufacturing">
+			<space>
+				<name>Corridor/Transition</name>
+				<lpd>0.41</lpd>
+				<unit>W/ft2</unit>
+				<rcr>8 ft</rcr>
+			</space>
+			<space>
+				<name>Detailed Manufacturing</name>
+				<lpd>1.29</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Equipment Room</name>
+				<lpd>0.95</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Extra High Bay</name>
+				<lpd>1.05</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>High Bay</name>
+				<lpd>1.23</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Low Bay</name>
+				<lpd>1.19</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+		</category>
+		<category group="Museum">
+			<space>
+				<name>General Exhibition</name>
+				<lpd>1.05</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Restoration</name>
+				<lpd>1.02</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+		</category>
+		<category group="Parking Garages">
+			<space>
+				<name>Garage Area</name>
+				<lpd>0.19</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+		</category>
+		<category group="Post Office">
+			<space>
+				<name>Sorting Area</name>
+				<lpd>0.94</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+		</category>
+		<category group="Religious Buildings">
+			<space>
+				<name>Audience Seating</name>
+				<lpd>1.53</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Fellowship Hall</name>
+				<lpd>0.64</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Worship Pulpit, Choir</name>
+				<lpd>1.53</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+		</category>
+		<category group="Retail">
+			<space>
+				<name>Dressing/Fitting Room</name>
+				<lpd>0.87</lpd>
+				<unit>W/ft2</unit>
+				<rcr>8</rcr>
+			</space>
+			<space>
+				<name>Mall Concourse</name>
+				<lpd>1.10</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Sales Area</name>
+				<lpd>1.68</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+		</category>
+		<category group="Sports Arena">
+			<space>
+				<name>Audience Seating</name>
+				<lpd>0.43</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Court Sports Arena—Class 4</name>
+				<lpd>0.72</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Court Sports Arena—Class 3</name>
+				<lpd>1.20</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Court Sports Arena—Class 2</name>
+				<lpd>1.92</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Court Sports Arena—Class 1</name>
+				<lpd>3.01</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Ring Sports Arena</name>
+				<lpd>2.68</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+		</category>
+		<category group="Transportation">
+			<space>
+				<name>Air/Train/Bus—Baggage Area</name>
+				<lpd>0.76</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Airport—Concourse</name>
+				<lpd>0.36</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Audience Seating</name>
+				<lpd>0.54</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+			<space>
+				<name>Terminal—Ticket Counter</name>
+				<lpd>1.08</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+		</category>
+		<category group="Warehouse">
+			<space>
+				<name>Fine Material Storage</name>
+				<lpd>0.95</lpd>
+				<unit>W/ft2</unit>
+				<rcr>6</rcr>
+			</space>
+			<space>
+				<name>Medium/Bulky Material Storage</name>
+				<lpd>0.58</lpd>
+				<unit>W/ft2</unit>
+				<rcr>4</rcr>
+			</space>
+		</category>
+	</dataset>
+</lights>

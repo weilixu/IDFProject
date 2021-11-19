@@ -1,0 +1,14 @@
+1. copy .idd file to resource folder, rename to idd_vX.X (no suffix)
+2. Pre-process .idd file: "^ \w{1,3}.*,$" -> remove object heading space (with 1, 2, 3...)
+3. main.java.tools.idd.ReadIDD -> generate idd .xml file
+4. main.java.tools.idfTreeStructure.ReadEnergyPlusIDD -> generate tree structure .xlsx file
+5. main.java.tools.idfTreeStructure.ReadEnergyPlusTreeStructureExcel -> generate tree structure .xml file from .xlsx file
+6. main.java.tools.idd.ReadIDDFile -> extract objects
+7. create IDFObjectSeq_VX_X.java under main.java.model.idf.meta, object list file
+  - remove tailing ,
+  - lowercase, select all -> right click
+  
+  - copy codes from previous version, clean out all objects, 
+  - use compare tool to compare
+  
+7. main.java.model.idf.meta.ObjectSeqFactory => add new version
