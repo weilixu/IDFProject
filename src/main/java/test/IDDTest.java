@@ -57,7 +57,9 @@ public class IDDTest {
         
         IDDParser iddParser = new IDDParser(model.getVersion());
         List<IDFObject> runperiod = model.getCategoryList("RunPeriodControl:SpecialDays");
-        System.out.println(runperiod.get(0).printStatement(100));
+        for(IDFObject idfObj: runperiod) {
+        	System.out.println(idfObj.printStatement(100));
+        }
         
         JsonObject msg = iddParser.validateIDF(model);
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
