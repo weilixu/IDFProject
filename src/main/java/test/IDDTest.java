@@ -57,6 +57,8 @@ public class IDDTest {
         
         IDDParser iddParser = new IDDParser(model.getVersion());
         List<IDFObject> runperiod = model.getCategoryList("RunPeriodControl:SpecialDays");
+        IDDParser iddParser = new IDDParser(model.getVersion());
+        
         for(IDFObject idfObj: runperiod) {
         	System.out.println(idfObj.printStatement(100));
         }
