@@ -7,6 +7,7 @@ import main.java.model.idf.IDFFileObject;
 import main.java.model.idf.IDFParser;
 import main.java.results.GeometryGenerator;
 
+import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 
@@ -24,5 +25,7 @@ public class ViewerGenerator {
         JsonObject msg = iddParser.validateIDF(model);
 
         GeometryGenerator geoGen = new GeometryGenerator(model);
+        File htmlFile = new File("WebContent/IDF3DViewerSocket.html");
+        Desktop.getDesktop().browse(htmlFile.toURI());
     }
 }
