@@ -15,12 +15,29 @@ How to use?
 The package can be downloaded as a Java project and run on Eclipse or other JAVA IDEs.
 You will need to turn the project to a maven project.
 
-Java 1.8+
-Maven
-
+1. Download the latest JRE (if not installed) from: https://www.java.com/en/download/manual.jsp
+2. Download the latest JDK from: https://www.oracle.com/java/technologies/downloads/
+3. Download a Java IDE - It is recommended to use JetBrain's [IntelliJ](https://www.jetbrains.com/idea/) or [Eclipse](https://www.eclipse.org/downloads/)
+4. Clone the project to your local folder (git clone...)
+5. Import the project to your IDE and configure it as Maven Project. 
+   1. IntelliJ should automatically detect the Maven file
+   2. For Eclipse, you need to manually turn the project to Maven project and refresh the project.
+6. Modify the server.config file under resources folder.
+```aidl
+ResourcePath= [YOUR PATH]\\IDFProject\\resources\\
+ValidateSSLCertificate=No
+debug=false
+platform=local
+ViewerDataSavedPath=[YOUR PATH]\\IDFProject\\WebContent\\temp
+```
+7. Open the ViewerGenerator file, and configure the paths to kick off geometry viewer.
+```aidl
+        ServerConfig.setConfigPath("[YOUR PATH]\\IDFProject\\resources\\server.config");
+        File idfFile = new File("[IDF FILE PATH]");
+```
+The viewer will automatically appear in your default browser.
 
 # Process IDFs
-
 Below is the sample code to process an IDF file
 ```Java
 // 1. tell IDFProject where to look for the configuration file, the server.config should be under the resources folder
