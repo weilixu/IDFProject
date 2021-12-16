@@ -185,21 +185,5 @@ public class GeometryGenerator {
         jo.add("materials", materials);
         return jo;
 	}
-	
-	public static void main(String[] args) throws IOException{
-        ServerConfig.setConfigPath("/Users/weilixu/eclipse-workspace/IDFProject/resources/server.config");
-        
-        File idfFile = new File("/Users/weilixu/Desktop/data/doasvrf.idf");
-        //File idfFile = new File("/Users/weilixu/Desktop/data/mediumoffice87.idf");
-
-        IDFFileObject model = new IDFFileObject();
-        IDFParser parser = new IDFParser();
-        parser.parseIDFFromLocalMachine(idfFile, model);
-        
-        IDDParser iddParser = new IDDParser(model.getVersion());
-        JsonObject msg = iddParser.validateIDF(model);
-
-        GeometryGenerator geoGen = new GeometryGenerator(model);
-	}
 
 }

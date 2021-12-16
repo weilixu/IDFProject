@@ -17,8 +17,6 @@ import org.jsoup.Jsoup;
 import com.google.gson.Gson;
 
 import main.java.config.ServerConfig;
-import main.java.model.ashraebaseline.ASHRAEConstructions;
-import main.java.model.ashraebaseline.ASHRAEHVAC;
 import main.java.model.ashraeprm.data.WindowWallRatioParser;
 import main.java.model.idd.EnergyPlusFieldTemplate;
 import main.java.model.idd.EnergyPlusObjectTemplate;
@@ -118,11 +116,11 @@ public class ReverseTranslator {
         //TODO progress bar info
         
         List<Element> materialElements = gbXML.getChildren("Material",ns);
-        if(materialElements.isEmpty()){
-        	//fill in baseline material elements
-        	ASHRAEConstructions baselineCons = new ASHRAEConstructions(file.getVersion());
-        	baselineCons.getBaselineConstructions(file);//fill in baseline
-        }
+//        if(materialElements.isEmpty()){
+//        	//fill in baseline material elements
+//        	ASHRAEConstructions baselineCons = new ASHRAEConstructions(file.getVersion());
+//        	baselineCons.getBaselineConstructions(file);//fill in baseline
+//        }
         
         //Debug: System.out.println(materialElements.size());
         for(int i=0; i<materialElements.size(); i++){
@@ -191,9 +189,9 @@ public class ReverseTranslator {
         //TODO read the HVAC system
         //TODO if no HVAC system, then baseline system selection should be implemented.
         //TODO baseline should be able to extend to residential buildings
-        ASHRAEHVAC baselineHVAC = new ASHRAEHVAC(file, scheduleTranslator, campusTranslator, iddParser.getVersion());
-        baselineHVAC.selectSystem();
-        
+//        ASHRAEHVAC baselineHVAC = new ASHRAEHVAC(file, scheduleTranslator, campusTranslator, iddParser.getVersion());
+//        baselineHVAC.selectSystem();
+//
         //outputs
         outputTranslator.addTableSummary(file);
     }

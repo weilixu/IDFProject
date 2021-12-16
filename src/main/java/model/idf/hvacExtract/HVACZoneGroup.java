@@ -396,6 +396,13 @@ public class HVACZoneGroup {
             //loop over all the available equipment
             int offset = ModelUtil.isVersionEqOrLater(this.version, "8.9") ? 2 : 1;
             int group = ModelUtil.isVersionEqOrLater(this.version, "9.0") ? 6 : 4;
+            if(fields.length <= 6){
+                //In this case, regardless of versions, we use 4 as the group indicator
+                //this is because in 9.0+ version, ZoneHVAC:EquipmentList has only one equipment
+                // and there is no cooling and heating sequential fractions for this equipment,
+                // so we need to manual adjust it back to 4.
+                group = 4;
+            }
             int size = (fields.length - 1) / group; //fields.length-1 => exclude name field
             for (int i = 1; i <= size; i++) {
                 int index = offset + (i - 1) * group; // object type index

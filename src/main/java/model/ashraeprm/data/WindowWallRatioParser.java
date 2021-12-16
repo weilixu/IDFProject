@@ -6,7 +6,6 @@ import main.java.model.idd.EnergyPlusObjectTemplate;
 import main.java.model.idd.IDDParser;
 import main.java.model.idf.IDFFileObject;
 import main.java.model.idf.IDFObject;
-import main.java.parametric.modelModifier.ParametricModifier;
 import main.java.util.ModelUtil;
 import main.java.util.NumUtil;
 import main.java.util.StringUtil;
@@ -110,17 +109,17 @@ public class WindowWallRatioParser {
 			}
 		}
 
-		if(StringUtil.isNullOrEmpty(defaultWindowConstructionName)){
-		    // generate default window construction
-            defaultWindowConstructionName = "Default Window Construction by BSH";
-            IDFObject newGlazing = ParametricModifier.generateDefaultSimpleGlazing(defaultWindowConstructionName, 0.4, 2.4);
-            List<String> materialList = new ArrayList<String>();
-            materialList.add(newGlazing.getName());
-
-            IDFObject newConstruction = ParametricModifier.generateNewConstructionWithListOfMaterials(defaultWindowConstructionName, materialList);
-            idfFileObject.addObject(newGlazing);
-            idfFileObject.addObject(newConstruction);
-        }
+//		if(StringUtil.isNullOrEmpty(defaultWindowConstructionName)){
+//		    // generate default window construction
+//            defaultWindowConstructionName = "Default Window Construction by BSH";
+//            IDFObject newGlazing = ParametricModifier.generateDefaultSimpleGlazing(defaultWindowConstructionName, 0.4, 2.4);
+//            List<String> materialList = new ArrayList<String>();
+//            materialList.add(newGlazing.getName());
+//
+//            IDFObject newConstruction = ParametricModifier.generateNewConstructionWithListOfMaterials(defaultWindowConstructionName, materialList);
+//            idfFileObject.addObject(newGlazing);
+//            idfFileObject.addObject(newConstruction);
+//        }
 
 		Set<String> names = idfWalls.keySet();
 		for (String name : names) {
